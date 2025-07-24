@@ -1,16 +1,16 @@
-# MyLinkedList
+# MyQueue
 
-A custom C++ implementation of a **Singly Linked List**, built from scratch to better understand low-level data structure mechanics. This project is part of a series where I recreate standard data structures and compare them to their STL counterparts.
+This repository contains a custom implementation of a **Queue** in C++, using arrays and front-rear pointer logic. Part of my series of re-implementing standard data structures to understand their internal mechanics and compare with STL.
 
 ---
 
 ## 🚀 Features
 
-- Node-based singly linked list implementation
-- Basic operations: `push_back`, `push_front`, `pop`, `display`, etc.
-- STL-like naming conventions for better understanding
-- Designed with simplicity and readability in mind
-- Code organized into `.h` and `.cpp` files
+- Array-based queue implementation
+- Core operations: `enqueue`, `dequeue`, `isEmpty`, `isFull`, `front`, `rear`
+- Circular behavior for optimized space usage
+- Clean and simple logic with STL-like naming
+- Clear separation of declaration (`.h`) and definition (`.cpp`)
 
 ---
 
@@ -18,4 +18,5 @@ A custom C++ implementation of a **Singly Linked List**, built from scratch to b
 ## 🛠️ How to Compile and Run
 
 ```bash
-g++ main.cpp MyLinkedList.cpp -o MyLinkedListApp && ./MyLinkedListApp
+g++ main.cpp MyQueue.cpp -o MyQueueApp && ./MyQueueApp
+
